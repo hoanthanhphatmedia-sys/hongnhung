@@ -10,14 +10,14 @@
     "baths": 2,
     "area": 78,
     "img": "assets/img/sunshine-legend-city-canho.jpg",
-    "meta": "",
+    "meta": "Dòng Sông Di Sản",
     "title": "Sunshine Legend City | Hồng Nhung BĐS",
     "description": "Sunshine Legend City — đang cập nhật thông tin chi tiết. Liên hệ Hồng Nhung BĐS để nhận tư vấn.",
     "hero": {
       "image": "assets/img/sunshine-legend-city-canho.jpg",
       "eyebrow": "Căn hộ",
       "title": "Sunshine Legend City",
-      "address": "Đang cập nhật"
+      "address": "Ngĩa Trụ, Văn Giang, Hưng Yên"
     },
     "specs": [
       {
@@ -27,32 +27,32 @@
       },
       {
         "label": "Vị trí",
-        "value": "Đang cập nhật",
+        "value": "Ngĩa trụ, Văn Giang, Hưng yên",
         "muted": false
       },
       {
         "label": "Chủ đầu tư",
-        "value": "Đang cập nhật",
+        "value": "Sunshine Group",
         "muted": false
       },
       {
         "label": "Tổng diện tích dự án",
-        "value": "Đang cập nhật",
+        "value": "56 ha",
         "muted": false
       },
       {
         "label": "Quy mô",
-        "value": "Đang cập nhật",
+        "value": "7000 căn hộ",
         "muted": false
       },
       {
         "label": "Mật độ xây dựng",
-        "value": "Đang cập nhật",
+        "value": "35%",
         "muted": false
       },
       {
         "label": "Dự kiến bàn giao",
-        "value": "Đang cập nhật",
+        "value": "quý 4 2028",
         "muted": false
       }
     ],
@@ -61,22 +61,22 @@
       "items": [
         {
           "label": "Diện tích",
-          "value": "Đang cập nhật",
+          "value": "50",
           "muted": true
         },
         {
           "label": "Số phòng ngủ",
-          "value": "Đang cập nhật",
+          "value": "2",
           "muted": true
         },
         {
           "label": "Số phòng VS",
-          "value": "Đang cập nhật",
+          "value": "2",
           "muted": true
         },
         {
           "label": "Dự kiến ký HĐMB",
-          "value": "Đang cập nhật",
+          "value": "tháng 10/ 2028",
           "muted": true
         }
       ],
