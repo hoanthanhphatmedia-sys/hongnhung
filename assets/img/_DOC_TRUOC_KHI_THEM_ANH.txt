@@ -1,0 +1,45 @@
+==============================================
+  THƯ MỤC ẢNH WEBSITE — HỒNG NHUNG BĐS
+  Tất cả 14 ảnh đã được nén & đặt sẵn ở đây.
+==============================================
+
+ẢNH ĐÃ CÓ TRONG THƯ MỤC NÀY (14 ảnh + 1 logo):
+
+  CHÂN DUNG (2):
+    portrait.jpg              -> Trang chủ, khối "Về tôi"
+    portrait-big.jpg          -> Trang Giới thiệu, ảnh lớn
+
+  DỰ ÁN — CĂN HỘ (6):
+    sunshine-legend-city-canho.jpg  -> Sunshine Legend City
+    alluvia-city-canho.jpg           -> Alumi - Alluvia City
+    masteri-grand-coast.jpg          -> Masteri Grand Coast
+    masteri-era-landmark.jpg         -> Masteri Era Landmark
+    hanoi-seasons-garden.jpg         -> Hanoi Seasons Garden
+    ecopark-canho.jpg                -> Chung cư Ecopark Hưng Yên
+
+  DỰ ÁN — THẤP TẦNG (dùng cho biệt thự / nhà phố / shophouse, 4):
+    sunshine-legend-city-thaptang.jpg -> Sunshine Legend City
+    alluvia-city-thaptang.jpg         -> Alluvia City
+    vinhomes-ocean-city.jpg           -> Vinhomes Ocean City
+    ecopark-thaptang.jpg              -> Ecopark Hưng Yên
+
+  ĐẤT NỀN & CHUYỂN NHƯỢNG (2):
+    dat-nen-hung-yen.jpg     -> Đất nền (dùng cho cả Hưng Yên & phía Đông Hà Nội)
+    chuyen-nhuong-bds.jpg    -> Dịch vụ chuyển nhượng BĐS
+
+  LOGO:
+    logo.png                 -> logo trắng nền trong suốt (đang dùng trên web)
+    logo-nen-den.png         -> bản dự phòng (logo nền đen)
+
+QUY TẮC VÀNG khi MUỐN THAY ẢNH:
+- Giữ NGUYÊN TÊN FILE (viết thường, không dấu, không cách, đuôi .jpg).
+  Chỉ cần ghi đè file cùng tên là ảnh trên web tự đổi.
+- Nếu ảnh mới của bạn nặng (>1 MB), nên nén qua tinypng.com / squoosh.app trước.
+- Kích thước nên dùng: ngang 1600x1060 cho thấp tầng/căn hộ, dọc 1200x1500 cho chân dung.
+
+MUỐN THÊM DỰ ÁN MỚI:
+1. Bỏ ảnh mới vào đây với tên không dấu, ví dụ "vinhomes-smart-city.jpg".
+2. Mở assets/js/script.js, thêm 1 dòng vào mảng properties với img trỏ tới file vừa thêm.
+3. Chi tiết xem HUONG_DAN.md mục D.
+
+VIDEO NỀN TRANG CHỦ: nằm ở assets/video/hero.mp4 — muốn đổi xem HUONG_DAN.md mục D.3.
