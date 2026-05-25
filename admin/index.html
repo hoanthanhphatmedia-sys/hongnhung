@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Quản trị nội dung | Hồng Nhung BĐS</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&amp;display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/admin/admin.css" />
+</head>
+<body>
+  <section class="login" id="loginPanel">
+    <form class="login-box" id="loginForm">
+      <p class="kicker">Hồng Nhung BĐS</p>
+      <h1>Quản trị nội dung</h1>
+      <label>
+        Mật khẩu quản trị
+        <input id="adminPassword" type="password" autocomplete="current-password" required />
+      </label>
+      <button type="submit">Đăng nhập</button>
+      <p class="hint">Mật khẩu này lấy từ biến môi trường <code>ADMIN_PASSWORD</code> trên Vercel.</p>
+    </form>
+  </section>
+
+  <section class="app hidden" id="app">
+    <aside class="sidebar">
+      <div>
+        <p class="kicker">CMS mini</p>
+        <h2>Quản trị</h2>
+      </div>
+      <nav class="tabs" aria-label="Khu vực chỉnh sửa">
+        <button class="active" data-view="site">Thông tin chung</button>
+        <button data-view="home">Trang chủ</button>
+        <button data-view="about">Giới thiệu</button>
+        <button data-view="contact">Liên hệ</button>
+        <button data-view="projects">Dự án</button>
+      </nav>
+      <div class="actions">
+        <button class="primary" id="saveBtn">Lưu & xuất bản</button>
+        <a href="/index.html" target="_blank" rel="noopener">Xem website</a>
+        <button class="ghost" id="logoutBtn">Đăng xuất</button>
+      </div>
+    </aside>
+
+    <main class="workspace">
+      <header class="topbar">
+        <div>
+          <p class="kicker" id="statusKicker">Đang tải</p>
+          <h1 id="panelTitle">Thông tin chung</h1>
+        </div>
+        <p class="status" id="statusText">Chưa có thay đổi</p>
+      </header>
+
+      <section class="panel active" data-panel="site"></section>
+      <section class="panel" data-panel="home"></section>
+      <section class="panel" data-panel="about"></section>
+      <section class="panel" data-panel="contact"></section>
+      <section class="panel" data-panel="projects"></section>
+    </main>
+  </section>
+
+  <script src="/admin/admin.js"></script>
+</body>
+</html>
